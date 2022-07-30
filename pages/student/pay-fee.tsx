@@ -24,7 +24,7 @@ const PayFee = (props: Props) => {
           <div className="col-6">
             <div className="card">
               <div className="card-body">
-                <h1>OK</h1>
+                <h1>OK abc</h1>
                 <h1 className="text-center">รอ QR Code</h1>
               </div>
             </div>
