@@ -1,19 +1,38 @@
-import { UserData } from "./user.model";
+export interface RegisterResult {
+  message: string;
+  loading: boolean;
+  status: string;
+  data?: RegisterForm;
+}
+export interface RegisterForm {
+  phone: string;
+  password: string;
+  line_id: string;
+  full_name: string;
+  bank_account: string;
+  bank_number: string;
+  bank_code: string;
+}
 
-export interface SignIn {
-  result: string;
+export interface User {
+  user_id: number;
+  username: string;
+  phone: string;
+  line_id: string;
+  ac_id: number;
+  full_name: string;
+  bank_account: string;
+  bank_number: string;
+  bank_code: string;
+}
+export interface LoginForm {
+  phone: string;
+  password: string;
+}
+export interface ResultLogin {
+  status: string;
   token: string;
-  error?: string;
-  user: UserData;
-}
-
-export interface SignUp {
-  result: string;
-  error?: string;
-}
-
-export interface GetSession {
-  result: string;
-  error?: string;
-  user?: UserData;
+  message: string;
+  loading: boolean;
+  data?: User;
 }

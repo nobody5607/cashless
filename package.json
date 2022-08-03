@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port=9001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,6 +19,7 @@
     "react": "18.1.0",
     "react-audio-player": "^0.17.0",
     "react-dom": "18.1.0",
+    "react-hook-form": "^7.34.0",
     "react-redux": "^8.0.2",
     "socket.io-client": "^4.5.1"
   },

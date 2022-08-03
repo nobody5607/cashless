@@ -1,49 +1,6 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Kanit', sans-serif;
-  background: #e5e5e5;
-} 
-a {
-  color: inherit;
-  text-decoration: none;
+  background: #252525;
 }
-
-* {
-  box-sizing: border-box;
-}
-.student-navbar{
-  background: #a83a25 !important;
-}
-.student-navbar .navbar-brand{
-  color:#fff;
-}
-.color-white{
-  color:white !important;
-} 
-
-.btn-primary, .btn-primary:hover {
-  color: #fff;
-  background-color: #a73b24;
-  border-color: #a73b24;
-}
-
-.font-lg{
-  font-size: 40pt !important;
-    font-weight: bold;
-}
-.center-screen{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.text-bold{
-  font-weight: bold;
-}
-.input-lg {
-  font-size: 18pt;
-}
-.breadcrumb{
-  -bsBreadcrumbDivider: '">"'
+color-white{
+  color:#fff !important;
 }

@@ -1,10 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
-
-import queueSlice from "./queue.slice";
+import registerSlice from "@/redux/auth/register.slice";
+import loginSlice from "./auth/login.slice";
+import accountSlice from "./auth/account.slice";
 
 const reducer = {
-  queue: queueSlice,
+  register: registerSlice,
+  login: loginSlice,
+  account: accountSlice,
 };
 
 export const store = configureStore({
